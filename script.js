@@ -48,7 +48,7 @@ function chekUserNumber(userNumber) {
     return;
   } else if (userNumber > 100) {
     changeUserNumber(100);
-    changeInfoText(`you cannot enter a number greater than 100`);
+    changeInfoText(`You can not enter a number greater than 100`);
     setTextColor("red", infoNode);
     return;
   } else if (randomNumber == userNumber) {
